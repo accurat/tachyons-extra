@@ -1,0 +1,19 @@
+{
+  "name": "tachyons-plugin-accurat",
+  "version": "0.0.1",
+  "description": "Tachyons Addons for the specific needs of Accurat",
+  "author": "Luca Falasco <falasco.luca@gmail.com> (https://github.com/lucafalasco",
+  "style": "style.css",
+  "main": "style.css",
+  "repository": "https://github.com/accurat/tachyons-plugin-accurat",
+  "keywords": ["css", "functional css", "responsive", "plugin"],
+  "license": "MIT",
+  "contributors": [
+    "Luca Falasco <falasco.luca@gmail.com> (https://github.com/lucafalasco)",
+    "Cesare Soldini <cesare.soldini@gmail.com> (https://github.com/caesarsol)",
+    "Marco Vettorello <marco.vettorello@accurat.it> (https://github.com/markov00)",
+    "nkint (https://github.com/nkint)",
+    "Marco Fugaro <marco.fugaro@gmail.com> (https://github.com/marcofugaro)",
+    "YeasterEgg <l.d.mattiazzi@gmail.com> (https://github.com/YeasterEgg)"
+  ]
+}

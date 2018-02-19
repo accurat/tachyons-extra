@@ -1,0 +1,84 @@
+/*
+* Tachyons Addons for the specific needs of Accurat
+*/
+
+.w6 {
+  width: 32rem;
+}
+.h6 {
+  height: 32rem;
+}
+.w0 {
+  width: 0;
+}
+.h0 {
+  height: 0;
+}
+.h-90 {
+  height: 90%;
+}
+.h-80 {
+  height: 80%;
+}
+.h-70 {
+  height: 70%;
+}
+.h-60 {
+  height: 60%;
+}
+.h-40 {
+  height: 40%;
+}
+.h-30 {
+  height: 30%;
+}
+.h-20 {
+  height: 20%;
+}
+.h-10 {
+  height: 10%;
+}
+.w-fit {
+  width: fit-content;
+}
+.h-fit {
+  height: fit-content;
+}
+.m-auto {
+  margin: auto;
+}
+.mh-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mv-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.mr-auto {
+  margin-right: auto;
+}
+.mt-auto {
+  margin-top: auto;
+}
+.mb-auto {
+  margin-bottom: auto;
+}
+.p-auto {
+  padding: auto;
+}
+.pl-auto {
+  padding-left: auto;
+}
+.pr-auto {
+  padding-right: auto;
+}
+.pointer-events-none {
+  pointer-events: none;
+}
+.pointer-events-all {
+  pointer-events: all;
+}
