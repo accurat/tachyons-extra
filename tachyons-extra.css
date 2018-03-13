@@ -20,8 +20,12 @@
 .h-80 { height: 80%; }
 .h-90 { height: 90%; }
 
-.w-fit { width: fit-content; }
-.h-fit { height: fit-content; }
+.w-fit {
+  width: fit-content;
+}
+.h-fit {
+  height: fit-content;
+}
 
 /* Missing min-width, min-height and max-height classes */
 .min-w0 { min-width: 0; }
