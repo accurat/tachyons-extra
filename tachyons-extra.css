@@ -1,167 +1,85 @@
-/*
-* Tachyons Addons for the specific needs of Accurat
-*/
+/* Missing width and height classes */
+.w0 { width: 0; }
+.w6 { width: 32rem; }
+.w7 { width: 48rem; }
+.w8 { width: 64rem; }
+.w9 { width: 96rem; }
 
-.w0 {
-  width: 0;
-}
-.w6 {
-  width: 32rem;
-}
-.w7 {
-  width: 64rem;
-}
-.w8 {
-  width: 128rem;
-}
+.h0 { height: 0; }
+.h6 { height: 32rem; }
+.h7 { height: 48rem; }
+.h8 { height: 64rem; }
+.h9 { height: 96rem; }
 
-.h0 {
-  height: 0;
-}
-.h6 {
-  height: 32rem;
-}
-.h7 {
-  height: 64rem;
-}
-.h8 {
-  height: 128rem;
-}
-.h-90 {
-  height: 90%;
-}
-.h-80 {
-  height: 80%;
-}
-.h-70 {
-  height: 70%;
-}
-.h-60 {
-  height: 60%;
-}
-.h-40 {
-  height: 40%;
-}
-.h-30 {
-  height: 30%;
-}
-.h-20 {
-  height: 20%;
-}
-.h-10 {
-  height: 10%;
-}
+.h-10 { height: 10%; }
+.h-20 { height: 20%; }
+.h-30 { height: 30%; }
+.h-40 { height: 40%; }
+.h-60 { height: 60%; }
+.h-70 { height: 70%; }
+.h-80 { height: 80%; }
+.h-90 { height: 90%; }
 
-.w-fit {
-  width: fit-content;
-}
-.h-fit {
-  height: fit-content;
-}
+.w-fit { width: fit-content; }
+.h-fit { height: fit-content; }
 
-.m-auto {
-  margin: auto;
-}
-.mh-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-.mv-auto {
+/* Missing min-width, min-height and max-height classes */
+.min-w0 { min-width: 0; }
+.min-w1 { min-width: 1rem; }
+.min-w2 { min-width: 2rem; }
+.min-w3 { min-width: 4rem; }
+.min-w4 { min-width: 8rem; }
+.min-w5 { min-width: 16rem; }
+.min-w6 { min-width: 32rem; }
+.min-w7 { min-width: 48rem; }
+.min-w8 { min-width: 64rem; }
+.min-w9 { min-width: 96rem; }
+
+.min-h0 { min-height: 0; }
+.min-h1 { min-height: 1rem; }
+.min-h2 { min-height: 2rem; }
+.min-h3 { min-height: 4rem; }
+.min-h4 { min-height: 8rem; }
+.min-h5 { min-height: 16rem; }
+.min-h6 { min-height: 32rem; }
+.min-h7 { min-height: 48rem; }
+.min-h8 { min-height: 64rem; }
+.min-h9 { min-height: 96rem; }
+
+.max-h0 { max-height: 0; }
+.max-h1 { max-height: 1rem; }
+.max-h2 { max-height: 2rem; }
+.max-h3 { max-height: 4rem; }
+.max-h4 { max-height: 8rem; }
+.max-h5 { max-height: 16rem; }
+.max-h6 { max-height: 32rem; }
+.max-h7 { max-height: 48rem; }
+.max-h8 { max-height: 64rem; }
+.max-h9 { max-height: 96rem; }
+
+/* Missing margin/padding auto classes */
+.center-vertical {
   margin-top: auto;
   margin-bottom: auto;
 }
-.ml-auto {
-  margin-left: auto;
-}
-.mr-auto {
-  margin-right: auto;
-}
-.mt-auto {
-  margin-top: auto;
-}
-.mb-auto {
-  margin-bottom: auto;
-}
+.m-auto { margin: auto; }
+.mt-auto { margin-top: auto; }
+.mb-auto { margin-bottom: auto; }
 
-.p-auto {
-  padding: auto;
-}
-.pl-auto {
-  padding-left: auto;
-}
-.pr-auto {
-  padding-right: auto;
-}
+.p-auto { padding: auto; }
+.pl-auto { padding-left: auto; }
+.pr-auto { padding-right: auto; }
+.pt-auto { padding-top: auto; }
+.pb-auto { padding-bottom: auto; }
 
+/* Various missing classes */
 .pointer-events-none {
   pointer-events: none;
 }
-.pointer-events-all {
-  pointer-events: all;
+.pointer-events-auto {
+  pointer-events: auto;
 }
 
 .prewrap {
   white-space: pre-wrap;
-}
-
-.min-w0 {
-  min-width: 0;
-}
-.min-w1 {
-  min-width: 1rem;
-}
-.min-w2 {
-  min-width: 2rem;
-}
-.min-w3 {
-  min-width: 4rem;
-}
-.min-w4 {
-  min-width: 8rem;
-}
-.min-w5 {
-  min-width: 16rem;
-}
-.min-w6 {
-  min-width: 32rem;
-}
-.min-w7 {
-  min-width: 48rem;
-}
-.min-w8 {
-  min-width: 64rem;
-}
-.min-w9 {
-  min-width: 96rem;
-}
-
-.min-h0 {
-  min-height: 0;
-}
-.min-h1 {
-  min-height: 1rem;
-}
-.min-h2 {
-  min-height: 2rem;
-}
-.min-h3 {
-  min-height: 4rem;
-}
-.min-h4 {
-  min-height: 8rem;
-}
-.min-h5 {
-  min-height: 16rem;
-}
-.min-h6 {
-  min-height: 32rem;
-}
-.min-h7 {
-  min-height: 48rem;
-}
-.min-h8 {
-  min-height: 64rem;
-}
-.min-h9 {
-  min-height: 96rem;
 }
