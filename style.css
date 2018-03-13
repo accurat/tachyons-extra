@@ -2,17 +2,30 @@
 * Tachyons Addons for the specific needs of Accurat
 */
 
+.w0 {
+  width: 0;
+}
 .w6 {
   width: 32rem;
+}
+.w7 {
+  width: 64rem;
+}
+.w8 {
+  width: 128rem;
+}
+
+.h0 {
+  height: 0;
 }
 .h6 {
   height: 32rem;
 }
-.w0 {
-  width: 0;
+.h7 {
+  height: 64rem;
 }
-.h0 {
-  height: 0;
+.h8 {
+  height: 128rem;
 }
 .h-90 {
   height: 90%;
@@ -38,12 +51,14 @@
 .h-10 {
   height: 10%;
 }
+
 .w-fit {
   width: fit-content;
 }
 .h-fit {
   height: fit-content;
 }
+
 .m-auto {
   margin: auto;
 }
@@ -67,6 +82,7 @@
 .mb-auto {
   margin-bottom: auto;
 }
+
 .p-auto {
   padding: auto;
 }
@@ -76,9 +92,76 @@
 .pr-auto {
   padding-right: auto;
 }
+
 .pointer-events-none {
   pointer-events: none;
 }
 .pointer-events-all {
   pointer-events: all;
+}
+
+.prewrap {
+  white-space: pre-wrap;
+}
+
+.min-w0 {
+  min-width: 0;
+}
+.min-w1 {
+  min-width: 1rem;
+}
+.min-w2 {
+  min-width: 2rem;
+}
+.min-w3 {
+  min-width: 4rem;
+}
+.min-w4 {
+  min-width: 8rem;
+}
+.min-w5 {
+  min-width: 16rem;
+}
+.min-w6 {
+  min-width: 32rem;
+}
+.min-w7 {
+  min-width: 48rem;
+}
+.min-w8 {
+  min-width: 64rem;
+}
+.min-w9 {
+  min-width: 96rem;
+}
+
+.min-h0 {
+  min-height: 0;
+}
+.min-h1 {
+  min-height: 1rem;
+}
+.min-h2 {
+  min-height: 2rem;
+}
+.min-h3 {
+  min-height: 4rem;
+}
+.min-h4 {
+  min-height: 8rem;
+}
+.min-h5 {
+  min-height: 16rem;
+}
+.min-h6 {
+  min-height: 32rem;
+}
+.min-h7 {
+  min-height: 48rem;
+}
+.min-h8 {
+  min-height: 64rem;
+}
+.min-h9 {
+  min-height: 96rem;
 }
