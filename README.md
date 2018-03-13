@@ -1,16 +1,24 @@
-# Tachyons Plugin Accurat
+# Tachyons Extra
 
-Tachyons Addons for the specific needs of Accurat
+> All of the css functional classes that are not included in the original Tachyons
 
-#### Install
+## Install
 
 ```sh
-yarn add tachyons-plugin-accurat
+yarn add tachyons-extra
 ```
 
-#### Import the module in the root of your project
+## Usage
 
-```sh
+If you're using webpack, import the module at the root of your project, just under the original `tachyons`
+
+```js
 import 'tachyons'
-import 'tachyons-plugin-accurat'
+import 'tachyons-extra'
+```
+
+Otherwise you can use it from the CDN, put this in your html
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/tachyons-extra/tachyons-extra.css">
 ```

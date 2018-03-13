@@ -1,18 +1,23 @@
 {
-  "name": "tachyons-plugin-accurat",
+  "name": "tachyons-extra",
   "version": "0.0.1",
-  "description": "Tachyons Addons for the specific needs of Accurat",
+  "description": "All of the css functional classes that are not included in the original Tachyons",
   "author": "Luca Falasco <falasco.luca@gmail.com> (https://github.com/lucafalasco)",
   "style": "style.css",
   "main": "style.css",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/accurat/tachyons-plugin-accurat"
-  },
+  "repository": "accurat/tachyons-extra",
   "bugs": {
-    "url": "https://github.com/accurat/tachyons-plugin-accurat/issues"
+    "url": "https://github.com/accurat/tachyons-extra/issues"
   },
-  "keywords": ["css", "functional css", "responsive", "plugin"],
+  "keywords": [
+    "tachyons",
+    "css",
+    "functional css",
+    "responsive",
+    "plugin",
+    "extra",
+    "addon"
+  ],
   "license": "MIT",
   "contributors": [
     "Luca Falasco <falasco.luca@gmail.com> (https://github.com/lucafalasco)",
