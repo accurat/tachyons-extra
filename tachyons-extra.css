@@ -27,7 +27,7 @@
   height: fit-content;
 }
 
-/* Missing min-width, min-height and max-height classes */
+/* Missing min-width, min-height, max-width and max-height classes */
 .min-w0 { min-width: 0; }
 .min-w1 { min-width: 1rem; }
 .min-w2 { min-width: 2rem; }
@@ -38,6 +38,7 @@
 .min-w7 { min-width: 48rem; }
 .min-w8 { min-width: 64rem; }
 .min-w9 { min-width: 96rem; }
+.min-w-100 { min-width: 100%; }
 
 .min-h0 { min-height: 0; }
 .min-h1 { min-height: 1rem; }
@@ -50,6 +51,8 @@
 .min-h8 { min-height: 64rem; }
 .min-h9 { min-height: 96rem; }
 
+.mw0 { max-width: 0; }
+
 .max-h0 { max-height: 0; }
 .max-h1 { max-height: 1rem; }
 .max-h2 { max-height: 2rem; }
@@ -60,6 +63,26 @@
 .max-h7 { max-height: 48rem; }
 .max-h8 { max-height: 64rem; }
 .max-h9 { max-height: 96rem; }
+.max-h-100 { max-height: 100%; }
+
+/* Missing flex classes */
+.flex-10 { flex-basis: 10%; }
+.flex-20 { flex-basis: 20%; }
+.flex-25 { flex-basis: 25%; }
+.flex-30 { flex-basis: 30%; }
+.flex-33 { flex-basis: 33.3333%; }
+.flex-40 { flex-basis: 40%; }
+.flex-50 { flex-basis: 50%; }
+.flex-60 { flex-basis: 60%; }
+.flex-70 { flex-basis: 70%; }
+.flex-80 { flex-basis: 80%; }
+.flex-90 { flex-basis: 90%; }
+.flex-100 { flex-basis: 100%; }
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
 
 /* Missing margin/padding auto classes */
 .center-vertical {
@@ -76,6 +99,33 @@
 .pt-auto { padding-top: auto; }
 .pb-auto { padding-bottom: auto; }
 
+/* Missing positioning classes */
+.top-100 { top: 100%; }
+.right-100 { right: 100%; }
+.bottom-100 { bottom: 100%; }
+.left-100 { left: 100%; }
+
+/* Prevent collapsing margins without using overflow: hidden */
+.no-collapsing-margins::before, .no-collapsing-margins::after {
+  content: '';
+  display: table;
+}
+
+/* Classic centering trick with position absolute */
+.absolute-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.absolute-center-vertical {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.absolute-center-horizontal {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 /* Various missing classes */
 .pointer-events-none {
   pointer-events: none;
@@ -86,4 +136,49 @@
 
 .prewrap {
   white-space: pre-wrap;
+}
+
+.user-select-none, .user-select-none * {
+  user-select: none;
+}
+
+.transition {
+  transition: all 0.3s ease;
+}
+
+.resize-vertical {
+  resize: vertical;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}
+
+.z--1 {
+  z-index: -1;
+}
+
+.will-change-transform {
+  will-change: transform;
+}
+
+.v-text-bottom {
+  vertical-align: text-bottom;
+}
+
+.v-text-top {
+  vertical-align: text-top;
+}
+
+.break-words {
+  word-break: break-all;
+  hyphens: auto;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed;
 }
