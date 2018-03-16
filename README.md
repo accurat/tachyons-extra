@@ -22,3 +22,9 @@ Otherwise you can use it from the CDN, put this in your html
 ```html
 <link rel="stylesheet" href="https://unpkg.com/tachyons-extra/tachyons-extra.css">
 ```
+
+## F.A.Q.
+
+#### Why not making a PR to the original repo with all those classes?
+
+Tachyons purposefully decided not to include a lot of these classes to keep the bundle as light as possible or [because of personal beliefs](https://github.com/tachyons-css/tachyons/issues/265), so it makes sense to regroup all of those in an external bundle.
