@@ -112,16 +112,16 @@
 }
 
 /* Classic centering trick with position absolute */
-.absolute-center {
+.absolute--center {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.absolute-center-vertical {
+.absolute--center-vertical {
   top: 50%;
   transform: translateY(-50%);
 }
-.absolute-center-horizontal {
+.absolute--center-horizontal {
   left: 50%;
   transform: translateX(-50%);
 }
