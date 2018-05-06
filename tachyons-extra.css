@@ -65,6 +65,24 @@
 .max-h9 { max-height: 96rem; }
 .max-h-100 { max-height: 100%; }
 
+/* Missing negative vertical margins */
+.nv1 { margin-top: -.25rem; margin-bottom: -.25rem; }
+.nv2 { margin-top: -.5rem; margin-bottom: -.5rem; }
+.nv3 { margin-top: -1rem; margin-bottom: -1rem; }
+.nv4 { margin-top: -2rem; margin-bottom: -2rem; }
+.nv5 { margin-top: -4rem; margin-bottom: -4rem; }
+.nv6 { margin-top: -8rem; margin-bottom: -8rem; }
+.nv7 { margin-top: -16rem; margin-bottom: -16rem; }
+
+/* Missing negative horizontal margins */
+.nh1 { margin-left: -.25rem; margin-right: -.25rem; }
+.nh2 { margin-left: -.5rem; margin-right: -.5rem; }
+.nh3 { margin-left: -1rem; margin-right: -1rem; }
+.nh4 { margin-left: -2rem; margin-right: -2rem; }
+.nh5 { margin-left: -4rem; margin-right: -4rem; }
+.nh6 { margin-left: -8rem; margin-right: -8rem; }
+.nh7 { margin-left: -16rem; margin-right: -16rem; }
+
 /* Missing flex classes */
 .flex-10 { flex-basis: 10%; }
 .flex-20 { flex-basis: 20%; }
