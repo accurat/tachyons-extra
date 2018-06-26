@@ -123,6 +123,32 @@
 .bottom-100 { bottom: 100%; }
 .left-100 { left: 100%; }
 
+/* Missing pseudo color classes, but just for black and white */
+.hover-transparent:hover { color: transparent; }
+.hover-b--black:hover { border-color: #000; }
+.hover-b--white:hover { border-color: #fff; }
+.hover-b--transparent:hover { border-color: transparent; }
+
+.active-black:active { color: #000; }
+.active-white:active { color: #fff; }
+.active-transparent:active { color: transparent; }
+.active-bg-black:active { background-color: #000; }
+.active-bg-white:active { background-color: #fff; }
+.active-bg-transparent:active { background-color: transparent; }
+.active-b--black:active { border-color: #000; }
+.active-b--white:active { border-color: #fff; }
+.active-b--transparent:active { border-color: transparent; }
+
+.focus-black:focus { color: #000; }
+.focus-white:focus { color: #fff; }
+.focus-transparent:focus { color: transparent; }
+.focus-bg-black:focus { background-color: #000; }
+.focus-bg-white:focus { background-color: #fff; }
+.focus-bg-transparent:focus { background-color: transparent; }
+.focus-b--black:focus { border-color: #000; }
+.focus-b--white:focus { border-color: #fff; }
+.focus-b--transparent:focus { border-color: transparent; }
+
 /* Prevent collapsing margins without using overflow: hidden */
 .no-collapsing-margins::before, .no-collapsing-margins::after {
   content: '';
