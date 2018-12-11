@@ -2,6 +2,8 @@
 
 > All of the css functional classes that are not included in the original Tachyons
 
+To see all the added classes, look at the [`tachyons-extra.css`](https://raw.githubusercontent.com/accurat/tachyons-extra/master/tachyons-extra.css) file.
+
 ## Install
 
 ```sh
