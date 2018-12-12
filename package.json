@@ -5,7 +5,15 @@
   "author": "Luca Falasco <falasco.luca@gmail.com> (https://github.com/lucafalasco)",
   "style": "tachyons-extra.css",
   "main": "tachyons-extra.css",
-  "repository": "accurat/tachyons-extra",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "browserslist": [
+    ">0.25%",
+    "not ie 11",
+    "not op_mini all"
+  ],
+  "repository": "https://github.com/accurat/tachyons-extra",
   "bugs": {
     "url": "https://github.com/accurat/tachyons-extra/issues"
   },
@@ -26,5 +34,10 @@
     "nkint <alberto.massa@accurat.it> (https://github.com/nkint)",
     "Marco Fugaro <marco.fugaro@gmail.com> (https://github.com/marcofugaro)",
     "YeasterEgg <l.d.mattiazzi@gmail.com> (https://github.com/YeasterEgg)"
-  ]
+  ],
+  "devDependencies": {
+    "cssnano": "^4.1.7",
+    "postcss": "^7.0.6",
+    "postcss-preset-env": "^6.4.0"
+  }
 }

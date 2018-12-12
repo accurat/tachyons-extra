@@ -22,7 +22,7 @@ import 'tachyons-extra'
 Otherwise you can use it from the CDN, put this in your html
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/tachyons-extra/tachyons-extra.css">
+<link rel="stylesheet" href="https://unpkg.com/tachyons-extra/tachyons-extra.min.css">
 ```
 
 ## F.A.Q.
