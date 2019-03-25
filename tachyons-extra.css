@@ -220,6 +220,11 @@
 /* Missing font-size classes */
 .f0 { font-size: 0; }
 
+/* Missing border-radius classes */
+.br5 { border-radius: 2rem; }
+.br6 { border-radius: 4rem; }
+.br7 { border-radius: 8rem; }
+
 /* Missing transform-origin classes */
 .transform-origin-top-left { transform-origin: top left; }
 .transform-origin-top-right { transform-origin: top right; }
@@ -350,4 +355,8 @@
 
 .sticky {
   position: sticky;
+}
+
+.semi-b {
+  font-weight: 600;
 }
