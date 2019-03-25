@@ -1,6 +1,6 @@
 {
   "name": "tachyons-extra",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "All of the css functional classes that are not included in the original Tachyons",
   "author": "Luca Falasco <falasco.luca@gmail.com> (https://github.com/lucafalasco)",
   "style": "tachyons-extra.css",
